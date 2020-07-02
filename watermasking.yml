@@ -1,0 +1,20 @@
+##conda env create -f watermasking.yml
+name: watermasking
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pydensecrf
+  - cython
+  - numpy
+  - Pillow
+  - scipy
+  - matplotlib
+  - opencv
+  - ipython
+  - jupyter
+  - rasterio
+  - scikit-image
+  - tensorflow-gpu
+  - requests
