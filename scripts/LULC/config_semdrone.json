@@ -1,0 +1,32 @@
+{
+  "dataset" : "semdrone",
+  "sz": 512,
+  "batch_size": 8,
+  "max_epochs": 5,
+  "classes": {
+   "unlabeled": "#000000",
+   "paved-area": "#804080",
+   "dirt": "#824c00",
+   "grass": "#006600",
+   "gravel": "#706757",
+   "water": "#1c2aa8",
+   "rocks": "#30291e",
+   "pool": "#003259",
+   "vegetation": "#6b8e23",
+   "roof": "#464646",
+   "wall": "#66669c",
+   "window": 	"#fee40c",
+   "door": "#fe940c",
+   "fence": "#be9999",
+   "fence-pole": "#999999",
+   "person": "#ff1660",
+   "dog": "#663300",
+   "car": "#098f96",
+   "bicycle": "#770b20",
+   "tree": "#333300",
+   "bald-tree": "#befabe",
+   "ar-marker": "#709692",
+   "obstacle": "#028773",
+   "conflicting": "#ff0000"
+   }
+}

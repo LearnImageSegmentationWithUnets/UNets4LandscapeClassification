@@ -1,0 +1,20 @@
+{
+  "dataset" : "aeroscapes",
+  "sz": 512,
+  "batch_size": 8,
+  "max_epochs": 20,
+  "classes": {
+   "bckgrnd": "k",
+   "person": "#993333",
+   "bike": "#7589de",
+   "car": "b",
+   "drone": "m",
+   "boat": "y",
+   "animal": "#eebfca",
+   "obstacle": "#e37711",
+   "construction": "r",
+   "vegetation": "g",
+   "road": "#8a8d8d",
+   "sky": "c"
+   }
+}

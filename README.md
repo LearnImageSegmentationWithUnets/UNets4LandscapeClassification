@@ -27,7 +27,8 @@ Now, you have a few options
 1.   Run through the CSDMS workflows (parts 1 and 2) as python scripts
 
 `cd scripts`
-`python CSDMS_May2020_part1_of_2.py`
+`python CSDMS_May2020_part1a_of_2.py`
+`python CSDMS_May2020_part1b_of_2.py`
 `python CSDMS_May2020_part2_of_2.py`
 
 2.   Run through the CSDMS workflows (parts 1 and 2) as jupyter notebooks
@@ -39,3 +40,6 @@ Now, you have a few options
 
 3. Train a model on your own data
 
+a. make a new folder inside data and organize your images and label images similarly, into train, test and validation folders
+b. make a config file like those for the other data sets
+c. copy `CSDMS_May2020_part1a_of_2.py`and adapt it to your needs, modifying (at least) the paths to your data, and other specifics

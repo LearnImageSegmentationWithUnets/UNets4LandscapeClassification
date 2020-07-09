@@ -1,0 +1,38 @@
+
+
+
+The dataset is available at https://www.tugraz.at/index.php?id=22387 and consists of 400 images
+and associated binary masks of 23 categories.
+
+The imagery depicts houses from nadir view acquired at an altitude of 5 to 30 meters above ground.
+
+A high resolution camera was used to acquire images at a size of 6000 x 4000 px (24 Mpx).
+
+The classes are:
+* unlabeled
+* paved-area
+* dirt
+* grass
+* gravel
+* water
+* rocks
+* pool
+* vegetation
+* roof
+* wall
+* window
+* door
+* fence
+* fence-pole
+* person
+* dog
+* car
+* bicycle
+* tree
+* bald-tree
+* ar-marker
+* obstacle
+* conflicting
+
+For speed, we will be working with a random subset of these data (100 images and associated masks),
+but the same workflow would be appropriate for the entire dataset.

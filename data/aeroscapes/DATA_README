@@ -1,0 +1,25 @@
+Aeroscapes datasets
+
+https://github.com/ishann/aeroscapes
+
+The dataset consists of 3269, 720 x 720 x 3 pixel images and ground-truth masks for 11 classes.
+
+The classes are:
+* bckgrnd
+* person
+* bike
+* car
+* drone
+* boat
+* animal
+* obstacle
+* construction
+* vegetation
+* road
+* sky
+
+The imagery depicts a range of urban and rural landscapes from both oblique nadir viewpoint,
+acquired at an altitude of 5 to 50 meters above ground from a camera on a UAV (drone).
+
+The version of the data we use here includes 1089 images, drawn randomly.
+We split that into a training set of 500 images, 250 test and 339 validation
